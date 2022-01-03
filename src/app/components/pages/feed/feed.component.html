@@ -1,0 +1,173 @@
+<div class="row mt-3">
+    <div class="col-md-9 order-md-1 order-sm-last mt-sm-3">
+        <div class="row">
+            <div class="col-md-12">
+                <form class="d-flex">
+                    <div class="col">
+                        <div class="mb-3">
+                            <label for="" class="form-label h3">What do you feel now:</label>
+                            <div class="mt-2">
+                                <textarea class="form-control" name="postMessage" id="" rows="3" required></textarea>
+                            </div>
+                        </div>
+                        <div class="mb-2">
+                            <input class="form-control" type="file" name="postPhoto" id="">
+                        </div>
+                        <div class="mb-2">
+                            <div class="d-grid gap-2">
+                                <button type="submit" name="btnPost" id="btnPost" class="btn btn-primary">
+                                    Post
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <hr class="mt-2 mx-1">
+            <div class="col-md-12">
+                <div class="h4">Recent Posts</div>
+                <div class="row">
+                    <div class="col-md-12 mt-3">
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="row">
+                                    <div class="col-sm-8">
+                                        <img src="" style="width:30px;">
+                                    </div>
+                                    <div class="col-sm-4" style="text-align:right">
+                                        <div class="dropdown open">
+                                            <button class="btn btn-info dropdown-toggle" type="button" id="triggerId"
+                                                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                ...
+                                            </button>
+                                            <div class="dropdown-menu" aria-labelledby="triggerId">
+                                                <a class="dropdown-item" href="">Edit</a>
+                                                <a class="dropdown-item" href=""
+                                                    onclick="return confirm('Are you sure to delete?')">Delete</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <div class="mt-2">
+                                    <img class="img-thumbnail" style="width:200px;" src="" alt="">
+                                </div>
+                                <p class="card-text mt-3">
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                Posted on:
+                            </div>
+                            <div class="card-body">
+                                <div class="h5">Comments</div>
+                                <ul class="list-group list-group-flush">
+                                    <div class="card">
+                                        <li class="list-group-item">
+                                            <form class="d-flex">
+                                                <div class="col">
+                                                    <div class="mb-3">
+                                                        <div class="mt-2">
+                                                            <input type="text" name="commentMessage"
+                                                                class="form-control" required>
+                                                        </div>
+                                                    </div>
+                                                    <div class="mb-2">
+                                                        <div class="row">
+                                                            <div class="col-md-10">
+                                                                <input class="form-control" type="file"
+                                                                    name="commentPhoto" id="">
+                                                            </div>
+                                                            <div class="col-md-2 d-grid gap-2">
+                                                                <button type="submit" name="btnPost" id="btnPost"
+                                                                    class="btn btn-primary">
+                                                                    Comment
+                                                                </button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <div class="fw-bold">
+                                                <img src="" style="width:30px;">
+                                            </div>
+                                            <div class="mt-2">
+                                                <img class="" alt="">
+                                            </div>
+                                            <div class="mt-2 ms-3">
+                                            </div>
+                                            <div class="mt-2">
+                                                <div class="row">
+                                                    <div class="col">
+                                                    </div>
+                                                    <div class="col" style="text-align:right">
+                                                        <a href="" class="btn btn-danger btn-sm"
+                                                            onclick="return confirm('Are you sure to delete?')">Delete</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </div>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 order-md-2 order-sm-first">
+        <div class="row">
+            <div class="col-md-12">
+                <img src="" style="width:60px;" class="img-thumbnail me-2">
+                Phakpoom I.
+            </div>
+        </div>
+
+        <div class="row mt-3">
+            <div class="col-md-12 mt-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">Friends Information</h4>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <a class="btn">
+                                <span class="badge bg-primary">5
+                                </span> &nbsp;&nbsp;&nbsp;Friends
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="card-body">
+                        <h4 class="card-title">Friend Requests</h4>
+                    </div>
+
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">No friend requests now.</li>
+                        <li class="list-group-item">
+                            <div class="row fw-bold h-4">
+                                <div class="col-md-2">
+                                    <img src="" style="width:100%">
+                                </div>
+                                <div class="col-md-10">
+                                    <div class="row">
+                                        <div class="col">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <a href="" class="badge bg-primary me-3">Accept</a>
+                                            <a href="" class="badge bg-danger">Reject</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
