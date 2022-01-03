@@ -14,6 +14,7 @@ import { DashboardComponent } from './components/pages/admin/dashboard/dashboard
 import { ManageuserComponent } from './components/pages/admin/manageuser/manageuser.component';
 import { ManagepostComponent } from './components/pages/admin/managepost/managepost.component';
 import { ChangepasswordComponent } from './components/pages/changepassword/changepassword.component';
+import { FriendComponent } from './components/pages/friend/friend.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { ChangepasswordComponent } from './components/pages/changepassword/chang
     DashboardComponent,
     ManageuserComponent,
     ManagepostComponent,
-    ChangepasswordComponent
+    ChangepasswordComponent,
+    FriendComponent
   ],
   imports: [
     BrowserModule,

@@ -5,6 +5,7 @@ import { ManagepostComponent } from './components/pages/admin/managepost/managep
 import { ManageuserComponent } from './components/pages/admin/manageuser/manageuser.component';
 import { ChangepasswordComponent } from './components/pages/changepassword/changepassword.component';
 import { FeedComponent } from './components/pages/feed/feed.component';
+import { FriendComponent } from './components/pages/friend/friend.component';
 import { HomeComponent } from './components/pages/home/home.component';
 import { LoginComponent } from './components/pages/login/login.component';
 import { ProfileComponent } from './components/pages/profile/profile.component';
@@ -16,6 +17,7 @@ const routes: Routes = [
   { path: "register", component: RegisterComponent },
   { path: "profile", component: ProfileComponent },
   { path: "feed", component: FeedComponent },
+  { path: "friend", component: FriendComponent },
   { path: "changepassword", component: ChangepasswordComponent },
   { path: "admin/dashboard", component: DashboardComponent },
   { path: "admin/managepost", component: ManagepostComponent },
